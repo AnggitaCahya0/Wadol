@@ -1,0 +1,20 @@
+.text-red {
+    color: red;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+.text-black {
+    color: black;
+}
+
+a.active > li {
+    background-color: orange !important;
+    color: white;
+}
+
+.w-header {
+    width: 1280px !important;
+}

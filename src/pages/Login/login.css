@@ -1,0 +1,112 @@
+.login-container {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  /* Align items along the cross-axis (center) */
+  justify-content: center; /* Center content along the main axis (vertically) */
+  min-height: 85vh; /* Ensure container takes up the full viewport height */
+}
+
+/* Header */
+.header-col {
+  display: flex;
+  align-items: center;
+}
+
+.header-brand img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.header-fix {
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Content */
+.login-container {
+  padding-top: 70px; /* Offset for fixed header */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.full-width-btn {
+  width: 100%;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.icon-round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.layout-signin {
+  min-height: 100vh;
+}
+
+.header-fix {
+  background-color: #fff;
+  padding: 0 24px;
+}
+
+.header-col {
+  display: flex;
+  align-items: center;
+}
+
+.header-brand img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.sign-img {
+  padding-top: 12px;
+  width: 100%; /* Pastikan lebar gambar mengikuti lebar kontainer */
+  max-width: 300px; /* Membatasi lebar gambar */
+  height: auto; /* Menjaga rasio aspek gambar */
+  display: block; /* Memastikan gambar tidak mengganggu tata letak */
+  margin: 0 auto; /* Memastikan gambar berada di tengah secara horizontal */
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+/* Form Styles */
+.username,
+.password {
+  margin-bottom: 15px;
+}
+
+.full-width-btn {
+  width: 100%;
+}
+
+.icon-round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
